@@ -81,7 +81,7 @@ Uses Bellman equation to calculate new Q values
 ![image](https://github.com/user-attachments/assets/61e78de9-d84e-4ae7-94b9-4fe8a075d32e)
 
 
-# **Sources**
+# **References**
 
 * [chatgpt to debug heuristic function](https://chatgpt.com)
 * [Python + PyTorch + Pygame Reinforcement Learning – Train an AI to Play Snake](https://www.youtube.com/watch?v=L8ypSXwyBds)
