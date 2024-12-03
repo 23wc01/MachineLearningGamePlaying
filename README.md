@@ -7,11 +7,11 @@ Agent will compare the usage of Neural Network vs Deep-Q-Network (DQN) learning 
 ## **Actions**
 3 possible actions
 
-[1,0,0] = forward (continues in current direction)
+`[1,0,0]` = forward (continues in current direction)
 
-[0,1,0] = turn right
+`[0,1,0]` = turn right
 
-[0,0,1] = turn left
+`[0,0,1]` = turn left
 
 ## **State**
 state = Represents 11 conditions using one-hot encoding, with 1 = condition met and 0 = condition unmet.
