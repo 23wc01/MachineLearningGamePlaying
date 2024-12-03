@@ -5,7 +5,7 @@ Artificial Intelligence 7750 - Graduate final project
 Agent will compare the usage of Neural Network vs Deep-Q-Network (DQN) learning to increasingly improve itself on playing a Snake game where
 
 ## **Actions**
-3 possible actions
+Represent snake's 3 possible actions using one-hot encoding, with 1 = action to do and 0 = action to not do.
 
 `[1,0,0]` = forward (continues in current direction)
 
