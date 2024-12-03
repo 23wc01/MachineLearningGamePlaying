@@ -6,6 +6,7 @@ Agent will compare the usage of Neural Network vs Deep-Q-Network (DQN) learning 
 
 ## **Actions**
 3 possible actions
+
 [1,0,0] = forward (continues in current direction)
 
 [0,1,0] = turn right
