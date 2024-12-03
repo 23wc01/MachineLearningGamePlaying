@@ -47,7 +47,7 @@ class NeuralNetTrainer:
           if food_directions[current_direction] == 1:
             return [1,0,0]
           else:
-            food_directions = food_directions[2:] if current_direction >= 1 else food_directions[:2]
+            food_directions = food_directions[2:] if current_direction <= 1 else food_directions[:2]
             food_direction = np.argmax(food_directions)
             if current_direction == 0: # Current direction=left
               return [0,1,0] if food_direction == 0 else [0,0,1] # food_direction == 0 means food is up
