@@ -7,10 +7,11 @@ Relevant papers
 * [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602v1)
 * [A Deep Q-Learning based approach applied to the Snake game](https://www.researchgate.net/publication/351884746_A_Deep_Q-Learning_based_approach_applied_to_the_Snake_game)
   
-# **About the Game**
+# **Summary**
 
-Agent will compare the usage of Neural Network vs Deep-Q-Network (DQN) learning to increasingly improve itself on playing a Snake game where
+Agent will compare the usage of Neural Network vs Deep-Q-Network (DQN) learning to increasingly improve itself on playing a Snake game.
 
+# **Environment**
 ## **Actions**
 
 Represent snake's 3 possible actions using one-hot encoding, with 1 = action to do and 0 = action to not do.
