@@ -56,7 +56,7 @@ Uses Bellman equation to calculate new Q values
 
 ![image](https://github.com/user-attachments/assets/322cffba-b4f3-4279-afe7-ab3bbdd21ba1)
 
-![image](https://github.com/user-attachments/assets/101b329f-6a4b-4c15-8c29-e48e79959402)
+![image](https://github.com/user-attachments/assets/83143a06-0c80-4bb8-a41c-3e6e9560c76a)
 
 
 ## DQN
