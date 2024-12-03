@@ -4,8 +4,16 @@ Artificial Intelligence 7750 - Graduate final project
 # **About the Game**
 Agent will compare the usage of Neural Network vs Deep-Q-Network (DQN) learning to increasingly improve itself on playing a Snake game where
 
+## **Actions**
+3 possible actions
+[1,0,0] = forward (continues in current direction)
+
+[0,1,0] = turn right
+
+[0,0,1] = turn left
+
 ## **State**
-state = Represents a series of conditions using one-hot encoding, with 1 = condition met and 0 = condition unmet.
+state = Represents 11 conditions using one-hot encoding, with 1 = condition met and 0 = condition unmet.
 * If danger (snake collides with its own body or game window boundary) is forward, right, and or left of the snake.
 * If current direction of snake is going left, right, up, or down.
 * If mice is left, right, up, and or down of snake (can have 2 combos if it's diagonal).
@@ -16,6 +24,9 @@ state = Represents a series of conditions using one-hot encoding, with 1 = condi
   ~~~
 Ex: `state = [0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0]` = Danger to left of 
 snake, snake moving downward, and mice (food) is to right & up of snake.
+
+## **Model**
+![image](https://github.com/user-attachments/assets/ca04816d-ebd8-4d1f-950a-601413f017dd)
 
 # **Neural Network**
 Uses **heuristic** function to determine target action to take:
@@ -28,17 +39,15 @@ Uses **heuristic** function to determine target action to take:
 
 
 # **DQN**
-**Reward & Penalty**
+## **Reward & Penalty**
 
 * eat_mice = +10
 * game_over = -10
 * idle_steps_after_long_time = -10 (idle/useless steps limit porportional to length of snake*100)
 
+## **Q learning**
+Uses Bellman equation to calculate new Q values
+![image](https://github.com/user-attachments/assets/34793a16-18c2-453c-9a69-3659f2b89d56)
 
-**Actions**
 
-[1,0,0] = forward (continues in current direction)
 
-[0,1,0] = turn right
-
-[0,0,1] = turn left
