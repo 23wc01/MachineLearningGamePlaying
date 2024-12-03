@@ -9,7 +9,7 @@ Relevant papers
   
 # **Summary**
 
-Agent will compare the usage of Neural Network vs Deep-Q-Network (DQN) learning to increasingly improve itself on playing a Snake game.
+Agent will compare the usage of Neural Network with heuristic vs Deep-Q-Network (DQN) learning to increasingly improve itself on playing a Snake game.
 
 # **Environment**
 ## **Actions**
@@ -38,7 +38,7 @@ snake, snake moving downward, and mice (food) is to right & up of snake.
 ## **Model**
 ![image](https://github.com/user-attachments/assets/a9813a5c-0292-440a-b956-29154d6450c3)
 
-# **Neural Network**
+# **Neural Network with heuristic**
 Uses **heuristic** function to determine target action to take:
 1. decided_action = Direction(s) where there's no danger
   2. decided_action = If mice in same direction snake is heading towards, return "go forward" action
@@ -69,7 +69,9 @@ Uses Bellman equation to calculate new Q values
 # **Results comparison**
 Both experiments ran for 10 minutes.
 
-## Neural Network
+**Conclusion**
+As can be seen, whereas Neural Network with heuristic approach improves in performance quickly, as time passes the increase in performance plateaus. In DQN, the performance doesn't improve as quickly initially, but as time goes on there is a clear and continuous increase in performance and no signs of plateauing yet even after 10 minutes. 
+## Neural Network with heuristic
 
 ![image](https://github.com/user-attachments/assets/322cffba-b4f3-4279-afe7-ab3bbdd21ba1)
 
