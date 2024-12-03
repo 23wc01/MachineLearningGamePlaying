@@ -67,6 +67,7 @@ Uses Bellman equation to calculate new Q values
 
 
 # **Results comparison**
+Both experiments ran for 10 minutes.
 
 ## Neural Network
 
