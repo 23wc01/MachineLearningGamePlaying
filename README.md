@@ -26,7 +26,7 @@ Ex: `state = [0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0]` = Danger to left of
 snake, snake moving downward, and mice (food) is to right & up of snake.
 
 ## **Model**
-![image](https://github.com/user-attachments/assets/ca04816d-ebd8-4d1f-950a-601413f017dd)
+![image](https://github.com/user-attachments/assets/a9813a5c-0292-440a-b956-29154d6450c3)
 
 # **Neural Network**
 Uses **heuristic** function to determine target action to take:
