@@ -49,5 +49,14 @@ Uses **heuristic** function to determine target action to take:
 Uses Bellman equation to calculate new Q values
 ![image](https://github.com/user-attachments/assets/34793a16-18c2-453c-9a69-3659f2b89d56)
 
+# **Results comparison**
+
+## Neural Network
+
+
+## DQN
+![image](https://github.com/user-attachments/assets/61e78de9-d84e-4ae7-94b9-4fe8a075d32e)
+
+![image](https://github.com/user-attachments/assets/6a2c34d9-f87b-4f84-b065-c0357a2b650b)
 
 
