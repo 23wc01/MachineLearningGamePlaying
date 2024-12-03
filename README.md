@@ -1,13 +1,16 @@
 # GamePlayingAI
+
 Artificial Intelligence 7750 - Graduate final project
 Relevant papers
 * [Neural Learning of Heuristic Functions for General Game Playing](https://core.ac.uk/download/pdf/302082154.pdf)
 * [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602v1)
 
 # **About the Game**
+
 Agent will compare the usage of Neural Network vs Deep-Q-Network (DQN) learning to increasingly improve itself on playing a Snake game where
 
 ## **Actions**
+
 Represent snake's 3 possible actions using one-hot encoding, with 1 = action to do and 0 = action to not do.
 
 `[1,0,0]` = forward (continues in current direction)
@@ -54,8 +57,8 @@ Uses Bellman equation to calculate new Q values
 ![image](https://github.com/user-attachments/assets/34793a16-18c2-453c-9a69-3659f2b89d56)
 
 ## **Gamma & Epsilon**
-`epsilon = 80-m` Random exploration if `randint(0, 200) < epsilon`, else do exploitation
 
+`epsilon = 80-m` Random exploration if `randint(0, 200) < epsilon`, else do exploitation
 
 `gamma = 0.9` Results fair better when gamma, aka discount factor, set closer to 1 (aka values future rewards almost as much as current rewards)
 
@@ -77,6 +80,7 @@ Uses Bellman equation to calculate new Q values
 
 
 # **Sources**
-[chatgpt to debug heuristic function](https://chatgpt.com)
-[Python + PyTorch + Pygame Reinforcement Learning – Train an AI to Play Snake](https://www.youtube.com/watch?v=L8ypSXwyBds)
+
+* [chatgpt to debug heuristic function](https://chatgpt.com)
+* [Python + PyTorch + Pygame Reinforcement Learning – Train an AI to Play Snake](https://www.youtube.com/watch?v=L8ypSXwyBds)
 
