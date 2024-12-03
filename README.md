@@ -53,7 +53,7 @@ Uses Bellman equation to calculate new Q values
 ## **Gamma & Epsilon**
 `epsilon = 80-m` Random exploration if `randint(0, 200) < epsilon`, else do exploitation
 `gamma = 0.9`
-Found that with results are better when gamma, aka discount factor, set closer to 1 (aka values future rewards almost as much as current rewards)
+Results fair better when gamma, aka discount factor, set closer to 1 (aka values future rewards almost as much as current rewards)
 
 # **Results comparison**
 
