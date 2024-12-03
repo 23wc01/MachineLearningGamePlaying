@@ -54,8 +54,13 @@ Uses Bellman equation to calculate new Q values
 
 ## Neural Network
 
+![image](https://github.com/user-attachments/assets/101b329f-6a4b-4c15-8c29-e48e79959402)
+
+![image](https://github.com/user-attachments/assets/232f5f77-83a8-4597-83b8-7bc2cef136e1)
+
 
 ## DQN
+
 ![image](https://github.com/user-attachments/assets/61e78de9-d84e-4ae7-94b9-4fe8a075d32e)
 
 ![image](https://github.com/user-attachments/assets/6a2c34d9-f87b-4f84-b065-c0357a2b650b)
