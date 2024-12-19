@@ -6,7 +6,9 @@ Relevant papers
 * [Neural network architecture for a snake game](https://www.researchgate.net/figure/Neural-network-architecture-for-a-snake-game_fig3_334998694)
 * [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602v1)
 * [A Deep Q-Learning based approach applied to the Snake game](https://www.researchgate.net/publication/351884746_A_Deep_Q-Learning_based_approach_applied_to_the_Snake_game)
-  
+
+# **Demo video**
+* [DQN vs Neural network with heuristic to play Snake](https://youtu.be/rDVHLXzJPvQ)
 # **Summary**
 
 Agent will compare the usage of Neural Network with heuristic vs Deep-Q-Network (DQN) learning to increasingly improve itself on playing a Snake game.
