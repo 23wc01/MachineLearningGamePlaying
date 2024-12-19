@@ -8,7 +8,7 @@ Relevant papers
 * [A Deep Q-Learning based approach applied to the Snake game](https://www.researchgate.net/publication/351884746_A_Deep_Q-Learning_based_approach_applied_to_the_Snake_game)
 
 # **Demo video**
-![[DQN vs Neural network with heuristic to play Snake](https://github.com/user-attachments/assets/ab37b2c5-5333-4726-8b4d-4bd79f15c262)
+![image](https://github.com/user-attachments/assets/e4fae0dd-c99f-4a8d-9d61-700e561aa2ea)
 
 ![[DQN vs Neural network with heuristic to play Snake](https://www.youtube.com/watch?v=rDVHLXzJPvQ)
 
