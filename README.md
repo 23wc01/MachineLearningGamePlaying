@@ -1,4 +1,4 @@
-# GamePlayingAI
+# Nerual Network with heuristi vs Deep Q Network
 
 Artificial Intelligence 7750 - Graduate final project
 Relevant papers
